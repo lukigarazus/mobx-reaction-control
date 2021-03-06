@@ -6,6 +6,9 @@
   "types": "./types",
   "author": "lukigarazus <ywnwa96@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/lukigarazus/mobx-reaction-control"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.20",
     "jest": "^26.6.3",
