@@ -1,0 +1,24 @@
+{
+  "name": "mobx-reaction-control",
+  "version": "1.0.0",
+  "description": "Wrapper enabling control over mobx reactions",
+  "main": "dist/index.js",
+  "types": "./types",
+  "author": "lukigarazus <ywnwa96@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.3",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "mobx": "^6.0.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "test:badges": "yarn jest --coverage && npx jest-coverage-badges"
+  }
+}
